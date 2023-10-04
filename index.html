@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div id="main">
+        <div id="head"><h1>Number System</h1></div>
+        <div id="buttom">
+            <div id="select">
+                <select name="" id="myselect" onclick="display()">
+                    <option value="0">Select Any</option>
+                    <option value="1">Binary to Octal</option>
+                    <option value="2">Binary to Decimal</option>
+                    <option value="3">Binary to HexaDecimal</option>
+                    <option value="4">Decimal to Binary</option>
+                    <option value="5">Decimal to Octal</option>
+                    <option value="6">Decimal to HexaDecimal</option>
+                    <option value="7">Octal to Binary</option>
+                    <option value="8">Octal to Decimal</option>
+                    <option value="9">Octal to HexaDecimal</option>
+                    <option value="10">HexaDecimal to Binary</option>
+                    <option value="11">HexaDecimal to Octal</option>
+                    <option value="12">HexaDecimal to Decimal</option>
+                </select>
+            </div>
+            <div id="body">
+                <div id="_0">
+                    <label for="">Plz Select One</label>
+                </div>
+                <div id="_1">
+                    <input type="number" name="" id="bnumber" placeholder="Enter Binary Number">
+                    <input type="button" value="Calculate" onclick="binaryOctal()">
+                    <label for="" id="Output">Result is</label>
+                </div>
+                <div id="_2">
+                    <input type="number" name="" id="bnumber1" placeholder="Enter Binary Number">
+                    <input type="button" value="Calculate" onclick="binaryDecimal()">
+                    <label for="" id="Output1">Result is</label>
+                </div>
+                <div id="_3">
+                    <input type="number" name="" id="bnumber2" placeholder="Enter Binary Number">
+                    <input type="button" value="Calculate" onclick="binaryHexa()">
+                    <label for="" id="Output2">Result is</label>
+                </div>
+                <div id="_4">
+                    <input type="number" name="" id="decimal" placeholder="Enter Decimal Number">
+                    <input type="button" value="Calculate" onclick="decimalBinary()">
+                    <label for="" id="output4">Result is</label>
+                </div>
+                <div id="_5">
+                    <input type="number" name="" id="decimal1" placeholder="Enter Decimal Number">
+                    <input type="button" value="Calculate" onclick="decimalOctal()">
+                    <label for="" id="output5">Result is</label>
+                </div>
+                <div id="_6">
+                    <input type="number" name="" id="decimal2" placeholder="Enter Decimal Number">
+                    <input type="button" value="Calculate" onclick="decimalHexa()">
+                    <label for="" id="output6">Result is</label>
+                </div>
+                <div id="_7">
+                    <input type="number" name="" id="octal" placeholder="Enter Octal Number">
+                    <input type="button" value="Calculate" onclick="octalBinary()">
+                    <label for="" id="output7">Result is</label>
+                </div>
+                <div id="_8">
+                    <input type="number" name="" id="octal1" placeholder="Enter Octal Number">
+                    <input type="button" value="Calculate" onclick="octalDecimal()">
+                    <label for="" id="output8">Result is</label>
+                </div>
+                <div id="_9">
+                    <input type="number" name="" id="octal2" placeholder="Enter Octal Number">
+                    <input type="button" value="Calculate" onclick="octalHexa()">
+                    <label for="" id="output9">Result is</label>
+                </div>
+                <div id="_10">
+                    <input type="text" name="" id="hexa" placeholder="Enter HexaDecimal Number">
+                    <input type="button" value="Calculate" onclick="hexaBinary()">
+                    <label for="" id="output10">Result is</label>
+                </div>
+                <div id="_11">
+                    <input type="text" name="" id="hexa1" placeholder="Enter HexaDecimal Number">
+                    <input type="button" value="Calculate" onclick="hexaOctal()">
+                    <label for="" id="output11">Result is</label>
+                </div>
+                <div id="_12">
+                    <input type="text" name="" id="hexa2" placeholder="Enter HexaDecimal Number">
+                    <input type="button" value="Calculate" onclick="hexaDecimal()">
+                    <label for="" id="output12">Result is</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
